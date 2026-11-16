@@ -1,0 +1,50 @@
+# Hemmeligheter og lokal miljøkonfigurasjon
+.env
+.env.*
+!.env.example
+
+# Vanlige private nøkkelfiler
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Virtuelle Python-miljøer
+.venv/
+venv/
+env/
+
+# Python-cache og verktøycache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Testdekning
+.coverage
+htmlcov/
+
+# Logger
+*.log
+logs/
+
+# Lokale runtime-data og SQLite-databaser
+# Bruk bare data/ til lokale data, ikke til kildekode.
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Lokale editor- og operativsystemfiler
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
