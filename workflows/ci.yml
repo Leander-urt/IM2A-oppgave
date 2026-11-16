@@ -1,0 +1,25 @@
+name: Kontroller Python-syntaks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    name: Python-syntaks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent repository
+        uses: actions/checkout@v4
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kontroller Python-filer
+        run: python -m compileall -q -x '(^|/)(\.git|\.venv|venv|env)(/|$)' .
