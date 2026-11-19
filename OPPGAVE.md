@@ -78,7 +78,7 @@ Begge skal bidra i alle tre fagene og kunne forklare sentrale deler av løsninge
 - [ ] Kilder, KI-bruk og individuell refleksjon.
 - [ ] Demonstrasjon av løsningen.
 
-Innleveringsfrist: [Lærer fyller ut]
+Innleveringsfrist: TBD
 
 ## Vurdering
 
