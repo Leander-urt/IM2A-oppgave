@@ -17,7 +17,6 @@ Beskriv målgruppen og minst ett konkret behov boten skal løse.
 Dere skal:
 
 - Installere Ubuntu Server uten grafisk grensesnitt.
-- Avklare nettverksoppsett med lærer eller IT-ansvarlig og konfigurere fast IP eller DHCP-reservasjon og hostname.
 - Administrere serveren via SSH og terminal fra Mac.
 - Bruke en egen Linux-bruker til boten; den skal ikke kjøre som root.
 - Kjøre boten som en systemd-tjeneste som starter automatisk og restarter ved feil.
