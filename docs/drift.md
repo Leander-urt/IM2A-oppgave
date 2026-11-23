@@ -8,7 +8,6 @@ Beskriv det faktiske oppsettet. En annen gruppe skal kunne følge dokumentasjone
 |---|---|
 | Ubuntu-versjon | [Fyll ut] |
 | Hostname | [Fyll ut] |
-| IP-oppsett | [Fast IP / DHCP-reservasjon, avklart med lærer/IT] |
 | Python-versjon | [Fyll ut] |
 | Linux-bruker for boten | [For eksempel discordbot] |
 | Repositorymappe | [For eksempel /opt/discordbot] |
@@ -25,7 +24,6 @@ Dokumenter kommandoene i riktig rekkefølge og hva dere kontrollerte etterpå.
 | Steg | Kommando eller endring | Hvorfor? | Kontroll av resultat |
 |---|---|---|---|
 | Ubuntu-installasjon | [Fyll ut] | [Fyll ut] | [Fyll ut] |
-| Nettverk og hostname | [Fyll ut] | [Fyll ut] | [Fyll ut] |
 | SSH fra Mac | [Fyll ut] | Fjernadministrasjon | [Fyll ut] |
 | Egen botbruker | [Fyll ut] | Unngå kjøring som root | [Fyll ut] |
 | Tilgang til privat GitHub-repository | [Fyll ut uten privat nøkkel] | [Fyll ut] | [Fyll ut] |
